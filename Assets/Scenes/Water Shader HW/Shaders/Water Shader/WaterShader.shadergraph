@@ -234,7 +234,44 @@
             "m_Id": "df207112c6214de98d0c6f63aa929122"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "4d1098e2dd3a43f9a1bfa7f54fa0b806"
+        },
+        {
+            "m_Id": "3a94018ef4d44efe83c69e2417616d81"
+        },
+        {
+            "m_Id": "3a5c174922474314ab0a39ac1ad3b4b2"
+        },
+        {
+            "m_Id": "2ed4776b216e4ca4bc0912aeda947971"
+        },
+        {
+            "m_Id": "af95ac2b7e7e495eb4c674ebd7fb955f"
+        },
+        {
+            "m_Id": "d1197666b9474a708315307e384ea12b"
+        },
+        {
+            "m_Id": "c07d6de7ec9440edae5b91d4882328ae"
+        },
+        {
+            "m_Id": "3831588d844a404b98ddc9fe5b33a546"
+        },
+        {
+            "m_Id": "8f066e2ec1c64af38ef73c3071909e45"
+        },
+        {
+            "m_Id": "4c3e1619698f438ba067f6dbd8a3679a"
+        },
+        {
+            "m_Id": "c9f80205345d465dabaaafb44287c0c3"
+        },
+        {
+            "m_Id": "f257905653434aa9888bd5dfad019ffc"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -1143,6 +1180,8 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": {
         "r": 1.0,
         "g": 1.0,
@@ -1369,10 +1408,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2127.999755859375,
-            "y": -1019.9999389648438,
-            "width": 208.0,
-            "height": 313.0
+            "x": -1955.0001220703125,
+            "y": -947.0001220703125,
+            "width": 145.0,
+            "height": 128.00006103515626
         }
     },
     "m_Slots": [
@@ -1382,7 +1421,7 @@
     ],
     "synonyms": [],
     "m_Precision": 0,
-    "m_PreviewExpanded": true,
+    "m_PreviewExpanded": false,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -1449,12 +1488,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -1588,12 +1639,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -1703,12 +1766,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -2033,6 +2108,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "2ed4776b216e4ca4bc0912aeda947971",
+    "m_Title": "Normal Map from Noise ",
+    "m_Content": "Convert noise to normals for refraction.\nAdds fake surface detail.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2744.0,
+        "y": -847.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "37bb7d12b4a9488bb9e95e221e1e8714"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "2fb38ea6a96642edbc08071c91eb1172",
     "m_Id": 0,
@@ -2319,7 +2414,67 @@
     "m_Title": "Water Refraction",
     "m_Position": {
         "x": -3546.0,
-        "y": -1078.99951171875
+        "y": -1006.0001220703125
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "3831588d844a404b98ddc9fe5b33a546",
+    "m_Title": "Depth Shallow/Deep Blend ",
+    "m_Content": "Use camera depth to fade color based on water depth.\nShallow = near surface\nDeep = far from surface",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2207.0,
+        "y": 54.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "6027ba5027f44242a9e4a370e6929769"
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "3a5c174922474314ab0a39ac1ad3b4b2",
+    "m_Title": "Wave Offset / Direction",
+    "m_Content": "Convert wave mask into direction/offset.\nUsed later for normals / surface distortion.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1109.0,
+        "y": -1891.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "df207112c6214de98d0c6f63aa929122"
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "3a94018ef4d44efe83c69e2417616d81",
+    "m_Title": "Wave Height",
+    "m_Content": "Multiply controls how tall the waves are.\nWaveHeight / WaveAmplitude = strength.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2156.0,
+        "y": -2072.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "df207112c6214de98d0c6f63aa929122"
     }
 }
 
@@ -2432,12 +2587,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -3119,6 +3286,46 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "4c3e1619698f438ba067f6dbd8a3679a",
+    "m_Title": "Foam Intensity Control ",
+    "m_Content": "Step + Multiply define foam coverage & thickness.\r\nControlled by FoamAmount & FoamScale.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1893.0,
+        "y": 696.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "781e8147738644eb897ccf38b81d93ef"
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "4d1098e2dd3a43f9a1bfa7f54fa0b806",
+    "m_Title": "Waves",
+    "m_Content": "Wave Shape\nSine generates a pattern.\nControlled by WaveSpeed.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2732.0,
+        "y": -2170.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "df207112c6214de98d0c6f63aa929122"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "4d4199a2896041c8b90fd33276315026",
     "m_Id": 1,
@@ -3493,8 +3700,8 @@
     "m_ObjectId": "6027ba5027f44242a9e4a370e6929769",
     "m_Title": "Water Color",
     "m_Position": {
-        "x": -2228.0,
-        "y": -115.99955749511719
+        "x": -2232.0,
+        "y": -116.000244140625
     }
 }
 
@@ -3841,12 +4048,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 0.05000000074505806,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -3871,7 +4090,7 @@
     "m_Title": "Foam",
     "m_Position": {
         "x": -3002.0,
-        "y": 649.0004272460938
+        "y": 595.0
     }
 }
 
@@ -3974,9 +4193,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2114.000244140625,
-            "y": -1790.0,
-            "width": 157.0001220703125,
+            "x": -2112.999755859375,
+            "y": -1789.9998779296875,
+            "width": 156.9998779296875,
             "height": 34.0
         }
     },
@@ -4300,6 +4519,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "8f066e2ec1c64af38ef73c3071909e45",
+    "m_Title": "Shore Foam Mask",
+    "m_Content": "Uses DepthFade to detect where water meets geometry.\r\nFoamCutoff sharpens the foam band.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2964.0,
+        "y": 847.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "781e8147738644eb897ccf38b81d93ef"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PositionMaterialSlot",
     "m_ObjectId": "8f3db234fb46451a82e9e3430833bae4",
     "m_Id": 0,
@@ -4400,12 +4639,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -4428,12 +4679,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 100.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -4925,12 +5188,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -5268,6 +5543,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "af95ac2b7e7e495eb4c674ebd7fb955f",
+    "m_Title": "Refraction Strength ",
+    "m_Content": "Controls how intense distortion appears.\n",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2355.0,
+        "y": -505.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "37bb7d12b4a9488bb9e95e221e1e8714"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "b64601c95b424365bf18d0d0ad081f6d",
     "m_Id": -25564632,
@@ -5385,12 +5680,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -5428,12 +5735,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 10.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -5449,6 +5768,26 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "c07d6de7ec9440edae5b91d4882328ae",
+    "m_Title": "Grab Background ",
+    "m_Content": "Sample scene color behind surface.\nScreen UV used for refraction lookup.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1558.0,
+        "y": -928.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "37bb7d12b4a9488bb9e95e221e1e8714"
+    }
 }
 
 {
@@ -5617,10 +5956,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1203.199951171875,
-            "y": 115.20000457763672,
-            "width": 207.99993896484376,
-            "height": 325.5999450683594
+            "x": -1238.0,
+            "y": 367.0000305175781,
+            "width": 208.0,
+            "height": 326.0000305175781
         }
     },
     "m_Slots": [
@@ -5672,6 +6011,26 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "c9f80205345d465dabaaafb44287c0c3",
+    "m_Title": "Foam on Top of Water ",
+    "m_Content": "Lerp mixes foam with base color.\r\nWhite areas = foam, color unaffected elsewhere.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1167.0,
+        "y": 130.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -5735,10 +6094,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1576.9998779296875,
-            "y": 707.9999389648438,
-            "width": 137.0,
-            "height": 34.0
+            "x": -1556.0,
+            "y": 654.0,
+            "width": 136.9998779296875,
+            "height": 34.00006103515625
         }
     },
     "m_Slots": [
@@ -5842,6 +6201,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "d1197666b9474a708315307e384ea12b",
+    "m_Title": "Wave Motion Foam ",
+    "m_Content": "Scroll UV noise for foam motion.\nAdds directional movement with waves.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2921.0,
+        "y": 1320.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "781e8147738644eb897ccf38b81d93ef"
     }
 }
 
@@ -5970,10 +6349,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -917.0000610351563,
-            "y": 160.00001525878907,
-            "width": 120.00006103515625,
-            "height": 148.99998474121095
+            "x": -969.0000610351563,
+            "y": 446.00006103515627,
+            "width": 120.000244140625,
+            "height": 149.0
         }
     },
     "m_Slots": [
@@ -6048,7 +6427,7 @@
     "m_Title": "Waves",
     "m_Position": {
         "x": -3628.0,
-        "y": -2225.0
+        "y": -2229.000244140625
     }
 }
 
@@ -6072,6 +6451,8 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": {
         "r": 0.003921568859368563,
         "g": 0.15294118225574494,
@@ -6147,12 +6528,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 0.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
@@ -6278,6 +6671,8 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": {
         "r": 0.007843137718737126,
         "g": 0.7568628191947937,
@@ -6436,6 +6831,26 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "f257905653434aa9888bd5dfad019ffc",
+    "m_Title": "Final Water/ Foam Composite",
+    "m_Content": "Lerp blends WaterColor (A) with Foam (B)\r\nusing FoamMask (T) as the selector.\r\n\r\nT = 0 → show Water\r\nT = 1 → show Foam\r\n\r\nFoam fully replaces water (not additive)\r\nfor clean stylized shoreline foam.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -587.0,
+        "y": -229.0,
+        "width": 268.0,
+        "height": 208.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
     "m_ObjectId": "f25fb78b78a64d0495e1838e3cdc98d0",
@@ -6455,12 +6870,24 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
     "m_Value": 2.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
-    }
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
 }
 
 {
