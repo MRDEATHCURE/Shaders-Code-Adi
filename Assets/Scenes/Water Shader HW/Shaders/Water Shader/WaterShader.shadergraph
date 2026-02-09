@@ -218,6 +218,9 @@
         },
         {
             "m_Id": "443f1ad5a2a84aff94e40cc3c8b50081"
+        },
+        {
+            "m_Id": "0fb1156ff43f444c975af4ee279f835a"
         }
     ],
     "m_GroupDatas": [
@@ -299,6 +302,20 @@
                     "m_Id": "d0d339a5d22e434598fc82c77d246a47"
                 },
                 "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "0fb1156ff43f444c975af4ee279f835a"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "489311f7599445b8bfee273596d742bf"
+                },
+                "m_SlotId": 2
             }
         },
         {
@@ -481,20 +498,6 @@
                     "m_Id": "979919ede0f448a180da8bbae3499fb2"
                 },
                 "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "44df1e9edf9b4dbd86414848a38207c2"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "489311f7599445b8bfee273596d742bf"
-                },
-                "m_SlotId": 2
             }
         },
         {
@@ -1308,6 +1311,56 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "VertexDescription.Normal"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
+    "m_ObjectId": "0fb1156ff43f444c975af4ee279f835a",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Depth Fade 1",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -2393.56396484375,
+            "y": 208.28952026367188,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "7c0f5b8bf63443a2aa165457a9c4b236"
+        },
+        {
+            "m_Id": "ef7abbde4b9342a385d8a80b06882ab1"
+        },
+        {
+            "m_Id": "dc5c73275c654628b43423d5b728d194"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"4c22a818f6cefd24fb38b327f19b7ff8\",\n        \"type\": 3\n    }\n}",
+    "m_PropertyGuids": [
+        "f994b4ba-26b9-46f8-b91f-0fe2c12d9693",
+        "6b0a2ead-4efa-4b7b-b363-6072227f3020"
+    ],
+    "m_PropertyIds": [
+        -822763397,
+        1914797254
+    ],
+    "m_Dropdowns": [],
+    "m_DropdownSelectedEntries": []
 }
 
 {
@@ -2413,8 +2466,8 @@
     "m_ObjectId": "37bb7d12b4a9488bb9e95e221e1e8714",
     "m_Title": "Water Refraction",
     "m_Position": {
-        "x": -3546.0,
-        "y": -1006.0001220703125
+        "x": -3546.000244140625,
+        "y": -1006.0000610351563
     }
 }
 
@@ -2881,10 +2934,12 @@
     },
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"9f279e4234af4314e8d3ef7a670cd3f3\",\n        \"type\": 3\n    }\n}",
     "m_PropertyGuids": [
-        "f994b4ba-26b9-46f8-b91f-0fe2c12d9693"
+        "f994b4ba-26b9-46f8-b91f-0fe2c12d9693",
+        "059fdc52-ec67-4386-9a02-e2a3b2b142ab"
     ],
     "m_PropertyIds": [
-        -822763397
+        -822763397,
+        1320780573
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -3227,10 +3282,12 @@
     },
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"9f279e4234af4314e8d3ef7a670cd3f3\",\n        \"type\": 3\n    }\n}",
     "m_PropertyGuids": [
-        "f994b4ba-26b9-46f8-b91f-0fe2c12d9693"
+        "f994b4ba-26b9-46f8-b91f-0fe2c12d9693",
+        "059fdc52-ec67-4386-9a02-e2a3b2b142ab"
     ],
     "m_PropertyIds": [
-        -822763397
+        -822763397,
+        1320780573
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -3700,8 +3757,8 @@
     "m_ObjectId": "6027ba5027f44242a9e4a370e6929769",
     "m_Title": "Water Color",
     "m_Position": {
-        "x": -2232.0,
-        "y": -116.000244140625
+        "x": -2232.000244140625,
+        "y": -115.99993896484375
     }
 }
 
@@ -4089,7 +4146,7 @@
     "m_ObjectId": "781e8147738644eb897ccf38b81d93ef",
     "m_Title": "Foam",
     "m_Position": {
-        "x": -3002.0,
+        "x": -3002.000244140625,
         "y": 595.0
     }
 }
@@ -4164,6 +4221,21 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "7c0f5b8bf63443a2aa165457a9c4b236",
+    "m_Id": -822763397,
+    "m_DisplayName": "WaterHeight",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_WaterHeight",
+    "m_StageCapability": 3,
+    "m_Value": 0.09000000357627869,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -6408,6 +6480,21 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "dc5c73275c654628b43423d5b728d194",
+    "m_Id": 1,
+    "m_DisplayName": "OutputFloatt",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "OutputFloatt",
+    "m_StageCapability": 2,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "ded06e516dd544769b31e61cc36bcec9",
     "m_Id": 3,
     "m_DisplayName": "B",
@@ -6426,8 +6513,8 @@
     "m_ObjectId": "df207112c6214de98d0c6f63aa929122",
     "m_Title": "Waves",
     "m_Position": {
-        "x": -3628.0,
-        "y": -2229.000244140625
+        "x": -3628.000244140625,
+        "y": -2229.0
     }
 }
 
@@ -6778,6 +6865,21 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "ef7abbde4b9342a385d8a80b06882ab1",
+    "m_Id": 1914797254,
+    "m_DisplayName": "MaxDepth",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_MaxDepth",
+    "m_StageCapability": 3,
+    "m_Value": 0.5,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {

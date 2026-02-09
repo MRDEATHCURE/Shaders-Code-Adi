@@ -65,6 +65,8 @@ Material:
     - _WaveAmplitude: 0.24
     - _WaveHeight: 0.81
     - _WaveSpeed: 1
+    - _zzxxx: 0.91
+    - _zzzz: 13.88
     m_Colors:
     - _DeeperWater: {r: 0, g: 0.121538825, b: 0.5960784, a: 0.38431373}
     - _Foam_Color: {r: 1, g: 1, b: 1, a: 1}
